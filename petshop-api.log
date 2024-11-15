@@ -1,0 +1,72 @@
+2024-11-09T19:45:59.084Z [petshop-api] error POST  - Nome e telefone são obrigatórios.
+2024-11-09T20:33:54.809Z [petshop-api] error POST  - ProprietarioRepository.createProprietario is not a function
+2024-11-09T20:35:02.304Z [petshop-api] info POST /proprietario - {"nome":"Axel Rose","telefone":"1299999-6688"}
+2024-11-09T20:41:12.388Z [petshop-api] info POST /proprietario - {"nome":"Slash","telefone":"(12)99999-6687"}
+2024-11-12T11:22:00.084Z [petshop-api] error POST  - Nome e telefone são obrigatórios.
+2024-11-12T11:23:24.696Z [petshop-api] info POST /proprietario - {"nome":"John Lennon","telefone":"(12)99778-5643"}
+2024-11-12T11:27:38.673Z [petshop-api] info POST /proprietario - {"nome":"John Lennon","telefone":"(12)99778-5643"}
+2024-11-12T11:42:37.490Z [petshop-api] info GET /proprietario
+2024-11-12T11:44:11.323Z [petshop-api] info GET /proprietario
+2024-11-13T11:24:42.065Z [petshop-api] error GET  - id is not defined
+2024-11-13T11:25:13.687Z [petshop-api] info GET /proprietario
+2024-11-13T11:25:22.530Z [petshop-api] info GET /proprietario
+2024-11-13T11:27:08.990Z [petshop-api] info GET /proprietario
+2024-11-13T11:27:18.425Z [petshop-api] info GET /proprietario
+2024-11-13T11:35:14.975Z [petshop-api] info DELETE /proprietario
+2024-11-13T11:35:19.848Z [petshop-api] info GET /proprietario
+2024-11-13T11:55:37.924Z [petshop-api] info POST /proprietario - {"proprietario_id":12,"nome":"Jimmy Hendrix","telefone":"(12)99778-5643"}
+2024-11-13T11:56:08.018Z [petshop-api] error PUT  - Id, Nome e telefone são obrigatórios.
+2024-11-13T11:56:29.486Z [petshop-api] error PUT  - Id, Nome e telefone são obrigatórios.
+2024-11-13T11:56:48.838Z [petshop-api] error PUT  - proprietario is not defined
+2024-11-13T11:57:41.252Z [petshop-api] info UPDATE /proprietario - undefined
+2024-11-13T11:57:52.368Z [petshop-api] info GET /proprietario
+2024-11-13T12:02:12.257Z [petshop-api] info UPDATE /proprietario - undefined
+2024-11-13T12:02:39.413Z [petshop-api] info UPDATE /proprietario - undefined
+2024-11-13T12:02:43.085Z [petshop-api] info GET /proprietario
+2024-11-13T12:04:36.065Z [petshop-api] info UPDATE /proprietario - {}
+2024-11-13T12:06:43.120Z [petshop-api] info UPDATE /proprietario - {}
+2024-11-13T12:06:59.762Z [petshop-api] info UPDATE /proprietario - {"linhasAlteradas":1}
+2024-11-14T11:23:40.115Z [petshop-api] error POST  - Nome, Tipo, e Proprietario_Id são obrigatórios.
+2024-11-14T11:23:51.829Z [petshop-api] error POST  - Logger is not defined
+2024-11-14T11:24:39.048Z [petshop-api] error POST  - Logger is not defined
+2024-11-14T11:26:34.127Z [petshop-api] error POST  - insert or update on table "animais" violates foreign key constraint "fk_proprietarios"
+2024-11-14T11:27:05.162Z [petshop-api] error POST  - Logger is not defined
+2024-11-14T11:27:58.950Z [petshop-api] error POST  - novoProp is not defined
+2024-11-14T11:28:43.030Z [petshop-api] info POST /animal - {"animal_id":15,"nome":"Frog","tipo":"Sapo","proprietario_id":8}
+2024-11-14T11:30:12.733Z [petshop-api] info POST /animal - {"animal_id":16,"nome":"Flop","tipo":"Coruja","proprietario_id":8}
+2024-11-14T11:32:08.500Z [petshop-api] error PUT  - Id, Nome e telefone são obrigatórios.
+2024-11-14T11:33:44.535Z [petshop-api] error PUT  - Id, Nome e telefone são obrigatórios.
+2024-11-14T11:34:09.726Z [petshop-api] error PUT  - conn.release is not a function
+2024-11-14T11:36:00.385Z [petshop-api] error PUT  - bind message supplies 3 parameters, but prepared statement "" requires 4
+2024-11-14T11:37:08.801Z [petshop-api] info PUT /animal - {"linhasAlteradas":1}
+2024-11-14T11:37:33.816Z [petshop-api] error PUT  - Animal_Id, Nome, Tipo, e Proprietario_Id são obrigatórios.
+2024-11-14T11:37:38.492Z [petshop-api] info PUT /animal - {"linhasAlteradas":1}
+2024-11-14T11:37:48.980Z [petshop-api] error POST  - Nome, Tipo, e Proprietario_Id são obrigatórios.
+2024-11-14T11:38:13.376Z [petshop-api] info POST /animal - {"animal_id":17,"nome":"Fip","tipo":"Lagarto","proprietario_id":10}
+2024-11-14T11:39:21.403Z [petshop-api] info DELETE /animal
+2024-11-14T11:39:48.492Z [petshop-api] info DELETE /animal
+2024-11-14T11:40:34.388Z [petshop-api] info GET /animal
+2024-11-14T11:41:01.377Z [petshop-api] info GET /proprietario
+2024-11-14T11:41:14.536Z [petshop-api] info GET /animal
+2024-11-14T11:41:22.356Z [petshop-api] info GET /animal
+2024-11-14T11:41:47.594Z [petshop-api] info GET /animal
+2024-11-14T11:41:58.386Z [petshop-api] info GET /animal
+2024-11-14T11:42:58.528Z [petshop-api] info GET /animal
+2024-11-14T11:43:56.682Z [petshop-api] info GET /animal
+2024-11-14T11:44:41.783Z [petshop-api] info GET /animal
+2024-11-14T11:45:00.505Z [petshop-api] info GET /animal
+2024-11-14T20:03:29.137Z [petshop-api] error GET  - Tenant or user not found
+2024-11-14T20:03:54.302Z [petshop-api] info GET /animal
+2024-11-14T20:04:03.328Z [petshop-api] info GET /animal
+2024-11-14T20:05:44.463Z [petshop-api] error POST  - Unexpected end of JSON input
+2024-11-14T20:05:57.952Z [petshop-api] error POST  - Unexpected token “ in JSON at position 1
+2024-11-14T20:06:46.524Z [petshop-api] info POST /animal - {"animal_id":10,"nome":"Totó","tipo":"Cachorro","proprietario_id":6}
+2024-11-14T20:07:39.853Z [petshop-api] info GET /animal
+2024-11-14T20:08:02.594Z [petshop-api] info GET /animal
+2024-11-14T20:09:01.472Z [petshop-api] info GET /animal
+2024-11-14T20:09:15.803Z [petshop-api] info GET /proprietario
+2024-11-14T20:09:21.384Z [petshop-api] info GET /proprietario
+2024-11-14T20:11:21.474Z [petshop-api] info GET /proprietario
+2024-11-14T20:11:42.981Z [petshop-api] info GET /animal
+2024-11-14T20:12:36.346Z [petshop-api] info DELETE /animal
+2024-11-14T20:12:57.185Z [petshop-api] info GET /animal
